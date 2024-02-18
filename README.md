@@ -29,7 +29,7 @@ NOTE: These queries follow an order of operations such that pages may be removed
 
 ## Sample Output
 
-User input is denoted with **enboldened**
+User input is **enboldened**
 
 **cplusplus.txt**
 Stand by while building index...
