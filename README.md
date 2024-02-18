@@ -12,7 +12,7 @@ You can also download any of the .txt files to try the project out with them or 
 ## Usage
 
 To use the file, you can compile an output file like this:
-"g++/gcc search_main.cpp -0 ./a.out"
+"g++/gcc search_main.cpp -o ./a.out"
 
 Then run the output like this:
 "./a.out"
