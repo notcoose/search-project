@@ -1,15 +1,15 @@
-#Search
+# Search
 
 Search is a search engine built with C++ that allows for complex queries.
 The program takes text files formatted with alternating url and text lines to build inverted indexes of cleaned tokens.
 The user is able to then search these indexes with compound queries requiring set unions, intersections, and/or differences.
 
-##Installation
+## Installation
 
 To use this project, the two required files are search.h and search_main.cpp
 You can also download any of the .txt files to try the project out with them or to view the required formatting 
 
-##Usage
+## Usage
 
 To use the file, you can compile an output file like this:
 "g++/gcc search_main.cpp -0 ./a.out"
@@ -27,7 +27,7 @@ When prompted you can query following these guidelines:
 
 NOTE: These queries follow an order of operations such that pages may be removed due to a '-' operation and then be added back later
 
-##Sample Output
+## Sample Output
 
 User input is denoted with **enboldened**
 
@@ -36,6 +36,7 @@ Stand by while building index...
 Indexed 86 pages containing 1498 unique terms
 
 Enter query sentence (press enter to quit):  **vector**
+
 Found 8 matching pages
 https://www.cplusplus.com/reference/array/array/
 https://www.cplusplus.com/reference/bitset/bitset/
@@ -47,6 +48,7 @@ https://www.cplusplus.com/reference/vector/vector-bool/
 https://www.cplusplus.com/reference/vector/vector/
 
 Enter query sentence (press enter to quit): **vector +container**
+
 Found 7 matching pages
 https://www.cplusplus.com/reference/array/array/
 https://www.cplusplus.com/reference/forward_list/forward_list/
@@ -57,10 +59,12 @@ https://www.cplusplus.com/reference/vector/vector-bool/
 https://www.cplusplus.com/reference/vector/vector/
 
 Enter query sentence (press enter to quit): **vector +container +pointer**
+
 Found 1 matching pages
 https://www.cplusplus.com/reference/vector/vector-bool/
 
 Enter query sentence (press enter to quit): **vector +container -pointer**
+
 Found 6 matching pages
 https://www.cplusplus.com/reference/array/array/
 https://www.cplusplus.com/reference/forward_list/forward_list/
@@ -70,6 +74,7 @@ https://www.cplusplus.com/reference/stack/stack/
 https://www.cplusplus.com/reference/vector/vector/
 
 Enter query sentence (press enter to quit): **vector bool ratio**
+
 Found 24 matching pages
 https://www.cplusplus.com/is_fundamental
 https://www.cplusplus.com/reference/array/array/
@@ -97,6 +102,7 @@ https://www.cplusplus.com/reference/vector/vector-bool/
 https://www.cplusplus.com/reference/vector/vector/
 
 Enter query sentence (press enter to quit): **L +ratio**
+
 Found 0 matching pages
 
 Enter query sentence (press enter to quit): 
